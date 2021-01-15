@@ -6,23 +6,25 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "lite-server": "lite-server"
+    "watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sgrant177/BudgetTracker.git"
+    "url": "git+https://github.com/sgrant177/Budget.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sgrant177/BudgetTracker"
+    "url": "https://github.com/sgrant177/Budget.git"
   },
-  "homepage": "https://github.com/sgrant177/BudgetTracker",
+  "homepage": "https://github.com/sgrant177/Budget.git",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
-    "lite-server": "^2.5.3",
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }
