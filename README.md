@@ -13,5 +13,5 @@ To start the server, run npm start. To access the app after starting the server,
 Deployed App: https://budget-tracker-12.herokuapp.com/
 
 Screenshot: 
-<img src="image\2021-01-19.png"></img>
+<img src="image\screenshot.png"></img>
 

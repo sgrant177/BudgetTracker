@@ -1,12 +1,17 @@
 body {
   font-size: 120%;
-  font-family: Arial;
+  font-family: 'Titillium Web', sans-serif;
+  background-image: url("https://cdn.hipwallpaper.com/i/2/51/GuFNwz.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 button, input {
   font-size: 100%;
-  font-family: Arial;
+  font-family: 'Titillium Web', sans-serif;
 }
+
+
 
 table {
   width: 100%;
@@ -16,11 +21,10 @@ td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+  background-color: whitesmoke;
 }
 
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
+
 
 .error {
   color: red;
@@ -33,8 +37,9 @@ tr:nth-child(even) {
 }
 
 .total {
-  font-size: 150%;
-  text-decoration: underline;
+  font-size: 125%;
+  color: black;
+
 }
 
 .form {
@@ -48,4 +53,16 @@ tr:nth-child(even) {
   overflow: auto;
   width: 90%;
   margin: 0 auto;
+}
+
+#title {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: black;
+}
+
+#myChart {
+  background-color: whitesmoke;
+  margin-top: 1.5rem;
 }
